@@ -1,0 +1,173 @@
+/*** constellation 20101115 ***/
+.tab{
+	background:url(../images/bg_tab.png) repeat-x;
+	height:45px;
+	text-align:center;
+	padding: 5px 0 0 10px;
+}
+.tab li{
+	width: 75px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.tab li a{
+	border-right: 1px solid #d37c08;
+	display: block;
+	color: #653002;
+	background: url(../images/bg_tablist.png) repeat-x;
+}
+.tab li:first-child,.tab li:first-child a{
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+}
+.tab li:last-child,.tab li:last-child a{
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border-right: none;
+}
+.tab li a.selected{
+    color: #fff;
+	background: url(../images/bg_tablist_r.png) repeat-x;
+}
+
+ul.constellation {
+	display:block;
+}
+ul.constellation li{float:left;}
+ul.constellation li a{
+	display:block;
+	width:106px;
+	height:91px;
+	text-align:center;
+	padding-top:5px;
+	background:url(../images/bg_linebg.png);
+}
+.line_bottom{border-bottom:1px solid #f1ba73;}
+.line_both{border-left:1px solid #f1ba73;border-right:1px solid #f1ba73;}
+.constellationCate{
+	background:url(../images/bg_insidetitle.png);
+	height:120px;
+	position: relative;
+	border-bottom: 1px solid #535353;
+}
+.constellationCate .pic{float:left;padding:10px 5px;}
+.constellationCate .date{
+	position: absolute;
+	right: 8px;
+	top:8px;
+	color: #653002;
+}
+.constellationCate .text{float:left;padding:15px 5px;width:220px;color: #653002;}
+.constellationCate .text p{line-height:16px;font-size:16px;padding-bottom:2px;}
+.constellationCate .text p.star span{float:right;}
+.constellationInfo{background:url(../images/bg_linebg.png);}
+.constellationInfo .infoBlock{width:300px;margin:0 auto;}
+.constellationInfo .infoBlock h3{
+	margin:0;
+	padding:10px 0;
+	font-size:18px;
+	color:#653002;
+	font-weight:normal;
+}
+.constellationInfo .infoBlock p{line-height:24px;padding-bottom:10px;color:#333;}
+.line_top{border-top:1px solid #494949}
+ul.examinationList li{
+	background:url(../images/bg_list.png) repeat-x;
+	height:73px;
+	padding:0 0 0 20px;
+}
+ul.examinationList li a{
+	line-height:73px;	
+	font-size:20px;
+	display:block;
+}
+ul.examinationList li img{display:block;float:left;padding:20px 10px 0 0;}
+.examinationList_header{
+	height:65px;
+	line-height:65px;
+	border-bottom:1px solid #494949;
+	padding-left:10px;
+	font-size:20px;
+}
+.examinationList_header a p{
+	width: 280px;
+	text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.examinationList_header a:link{
+	display:block;
+	color:#0080FF;
+	text-shadow:2px 2px #fff;
+}
+.examinationList_header a:visited{color:#0080FF;}
+.examinationInfo{
+	background:url(../images/bg_linebg.png);
+	padding:10px;
+	border-bottom: 1px solid #494949;
+}
+.examinationInfo p{color:#fff;padding:5px 0;font-size:18px;}
+.examinationInfo span,.examinationInfo p span{font-size:16px;color:#f00;line-height:20px;}
+.slideclosed{	background: url(../images/bg_examinationlist.png) right center no-repeat;}
+.slideopen{background: url(../images/bg_examinationlistr.png) right center no-repeat;}
+ul.tarot li{float:left;margin:10px 6px;-webkit-box-shadow: 0px 5px 10px #111;}
+.textboard{
+	clear:both;
+	padding:10px;
+	margin-bottom:10px;
+    -webkit-border-image: url(../images/bg_textboard.png) 8 0 8 0;
+}
+.textboard h3{font-size:18px;color:#ccc;font-weight:normal;margin:5px 0;}
+.textboard p{font-size:16px;color:#ccc;line-height:24px;}
+.testText a{
+	float:left;
+	display:block;
+	height:55px;
+	width:55px;
+	border:2px solid #333;
+	background-color:#111;
+	-webkit-border-radius:5px;
+	text-align:center;
+	line-height:55px;
+	color:#7ac8f4;
+	font-size:24px;
+	margin:10px 7px;
+}
+.enterBtn{
+	background: url(../iphone/images/enterbutton.png) repeat-x;
+	-webkit-border-radius:12px;
+	width:90%;
+	height:45px;
+	border: 2px solid #333;
+	margin:15px auto 0;
+}
+.enterBtn a{
+	display:block;
+	width:100%;
+	line-height:45px;
+	text-align:center;
+	font-size:22px;
+}
+
+/*** fortune list ***/
+.fortuneList{background: #1f1f20;}
+.fortuneList li{
+	height: 65px;
+	border-top:1px solid #494949;
+	padding-left: 10px;
+}
+.fortuneList li p{
+	font-size: 20px;
+	color: #ffc92c;
+	padding: 5px 0 5px 0;
+}
+.fortuneList li span{
+	font-size: 17px;
+}
+.fortuneList li a{
+	display: block;
+	height: 65px;
+}
