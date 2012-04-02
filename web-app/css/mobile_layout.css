@@ -1,0 +1,196 @@
+/*** public ***/
+body {
+    margin: 0;
+    background: #ffe8b0;
+    color: #fff;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+}
+a,a:link,a:visited,a:hover{
+	color:#FFF;
+	text-decoration:none;
+	padding:0;
+	margin:0;
+}
+em{font-family:Arial, Helvetica, sans-serif;}
+ul{list-style-type:none;}
+input{-webkit-border-radius:8px;}
+*input [type="search"]{-webkit-appearance:searchfield;}
+.clear{clear:both;}
+img{border:none;}
+p,form,img,ul,ul li{padding:0;margin:0;}
+/*** tool bar ***/
+.button {
+    position: absolute;
+    overflow: hidden;
+    top: 8px;
+    right: 6px;
+    margin: 0;
+    border-width: 0 5px;
+    padding: 0 3px;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-family: inherit;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    -webkit-border-image: url(../images/toolButton.png) 0 5 0 5;
+}
+.backButton {
+    position: absolute;
+	top:8px;
+    left: 6px;
+    max-width: 60px;
+    padding: 0 3px;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+	font-weight: bold;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    border-width: 0 8px 0 14px;
+    -webkit-border-image: url(../images/backButton.png) 0 8 0 14;
+}
+.toolbar {
+    border-bottom: 1px solid #cf7500;
+    height: 50px;
+    background: url("../images/titlebg.png") #000 repeat-x;
+	text-align:center;
+}
+.toolbar > h1 {
+    position: absolute;
+    overflow: hidden;
+	top:10px;
+    left:50%;
+    margin: 1px 0 0 -75px;
+    height: 35px;
+    font-size: 20px;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #653002;
+}
+
+/*************** banner ******************/
+
+.banner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*************** switch button ******************/
+
+.btFH {
+    width:80px;
+	height:80px;
+	position: absolute;
+	right: 5px;
+	top:35px;
+}
+
+/*** main ***/
+.main{
+	width:320px;
+	margin:0 auto;
+	padding:0;
+	background:#ffe8b0;
+}
+
+/*** footer ***/
+.footer{
+	background:#ffe8b0 url(../images/footerbg.png) repeat-x;
+	height:38px;
+	font-size:13px;
+	color:#653002;
+	text-align:center;
+	padding-top:5px;
+	border-top:1px solid #9293a7;
+}
+
+.main2 ul[class="TypeList"]{
+	list-style-type:none;
+}
+.main2 ul[class="TypeList"] li{
+	background:url(http://fortune.wawa.net.tw/hami/images/listbg.png) no-repeat;
+	margin:5px 6px;
+	width:308px;
+	height:70px;
+}
+.main2 ul[class="TypeList"] li a{
+	display:block;
+	background:url(http://fortune.wawa.net.tw/dirmgmt/safari/images/listArrow.png) center right no-repeat;
+	float:left;
+}
+
+.videoImg{display:block;width:10px;height:60px; overflow:hidden; float:left; margin:5px 0 0 5px;;padding:0;}
+
+.main2 ul[class="TypeList"] em{display:block; font:18px normal; float:left;margin:5px 0 0 5px; width:40px;color:#ff0000;}
+.main2 ul[class="TypeList"] h1{
+	display:block;
+	font-size:20px;
+	float:left;
+	margin-top:center;
+	margin-left:1px;
+	margin-right:2px;
+	margin-bottom:auto; 
+	line-height:20px;
+	letter-spacing:1px;
+	color:#000000;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.main2 ul[class="TypeList"] h2{
+	font-size:14px;
+	color:#FF0000;
+	text-align:left;
+	display:block;
+	float:left;
+	width:250px;
+	margin-top:-10;
+	margin-left:1px;
+	margin-right:2px;
+	margin-bottom:auto;
+	line-height:20px;
+}
+
+.main2{
+	width:320px;
+	min-height:240px;
+	margin:0 auto;
+	padding:5px 0;
+}
+.main2 h1{
+	margin:15px;
+	font-size:20px;
+	font-weight:normal;
+	line-height:22px;
+}
+.main2 h1.bigh1{
+	margin:0 0 5px 25px;
+	font-size:20px;
+	font-weight:normal;
+}
+.main2 h2{
+	text-align:center;
+	font-size:14px;
+	font-weight:normal;
+	margin:10px 0 0 0;
+}
+.main2 h3{
+	font-size:14px;
+	font-weight:normal;
+	margin:10px 0 0 10px;
+}
